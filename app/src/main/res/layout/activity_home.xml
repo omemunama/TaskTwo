@@ -7,12 +7,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/pad_top"
-    android:tag="main"
-    tools:context="nursulaeman.tasktwo.MainActivity">
+    tools:context="nursulaeman.tasktwo.HomeActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Main"/>
+        android:text="Home"/>
 
 </RelativeLayout>

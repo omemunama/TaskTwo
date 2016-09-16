@@ -49,7 +49,7 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
 
         switch (id) {
             case R.id.nav_home:
-                Intent lay_home = new Intent(this, MainActivity.class);
+                Intent lay_home = new Intent(this, HomeActivity.class);
                 startActivity(lay_home);
                 break;
             case R.id.nav_profile:
