@@ -10,9 +10,11 @@
     android:tag="main"
     tools:context="nursulaeman.tasktwo.MainActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Main"/>
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/my_image_view" />
 
 </RelativeLayout>
