@@ -48,7 +48,18 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         switch (id) {
-
+            case R.id.nav_home:
+                Intent lay_home = new Intent(this, MainActivity.class);
+                startActivity(lay_home);
+                break;
+            case R.id.nav_profile:
+                Intent lay_profile = new Intent(this, ProfileActivity.class);
+                startActivity(lay_profile);
+                break;
+            case R.id.nav_contact:
+                Intent lay_galery = new Intent(this, ContactActivity.class);
+                startActivity(lay_galery);
+                break;
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

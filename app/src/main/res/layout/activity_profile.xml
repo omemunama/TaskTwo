@@ -7,11 +7,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/pad_top"
-    tools:context="nursulaeman.tasktwo.MainActivity">
+    tools:context="nursulaeman.tasktwo.ProfileActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Home"/>
+        android:text="Name : Nur Sulaeman"/>
 
 </RelativeLayout>
