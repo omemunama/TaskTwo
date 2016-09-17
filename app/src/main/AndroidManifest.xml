@@ -10,8 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,8 +24,12 @@
         <activity
             android:name=".ContactActivity"
             android:noHistory="true" />
-        <activity android:name=".HomeActivity"
-            android:noHistory="true"/>
+        <activity
+            android:name=".HomeActivity"
+            android:noHistory="true" />
+        <activity android:name=".AddressFragment" />
+        <activity android:name=".PhoneFragment" />
+        <activity android:name=".OtherContactragment"></activity>
     </application>
 
 </manifest>
