@@ -4,12 +4,35 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Other Contact"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/tv_othercontact_1"
+            style="@style/tv_style_1"
+            android:layout_gravity="center"
+            android:text="xnursx@gmail.com" />
+
+        <TextView
+            android:id="@+id/tv_othercontact_2"
+            style="@style/tv_style_1"
+            android:layout_gravity="center"
+            android:text="bitbucket.org/omemunama" />
+
+        <TextView
+            android:id="@+id/tv_othercontact_3"
+            style="@style/tv_style_1"
+            android:layout_gravity="center"
+            android:text="github.com/omemunama" />
+
+        <TextView
+            android:id="@+id/tv_othercontact_4"
+            style="@style/tv_style_1"
+            android:layout_gravity="center"
+            android:text="walaugelap.my.id" />
+
+    </LinearLayout>
 </RelativeLayout>

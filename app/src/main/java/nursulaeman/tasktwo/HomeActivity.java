@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class HomeActivity extends AppCompatActivity {
 
-    String[] data1 = new  String[] {"Home1","Home2","Home3","Home4","Home5","Home6","Home7","Home8","Home9","Home10",
+    String[] data1 = new  String[] {"Home 1","Home 2","Home 3","Home 4","Home 5","Home 6","Home 7","Home 8","Home 9","Home10",
             "Home11","Home12","Home13","Home14","Home15","Home16","Home17","Home18","Home19","Home20",
             "Home21","Home22","Home23","Home24","Home25","Home26","Home27","Home28","Home29","Home30"};
 
