@@ -20,16 +20,22 @@
             android:id="@+id/tv_othercontact_2"
             style="@style/tv_style_1"
             android:layout_gravity="center"
-            android:text="bitbucket.org/omemunama" />
+            android:text="linkedin.com/in/nur-sulaeman-585616aa" />
 
         <TextView
             android:id="@+id/tv_othercontact_3"
             style="@style/tv_style_1"
             android:layout_gravity="center"
-            android:text="github.com/omemunama" />
+            android:text="bitbucket.org/omemunama" />
 
         <TextView
             android:id="@+id/tv_othercontact_4"
+            style="@style/tv_style_1"
+            android:layout_gravity="center"
+            android:text="github.com/omemunama" />
+
+        <TextView
+            android:id="@+id/tv_othercontact_5"
             style="@style/tv_style_1"
             android:layout_gravity="center"
             android:text="walaugelap.my.id" />
