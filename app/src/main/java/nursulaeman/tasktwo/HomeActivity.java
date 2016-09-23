@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends BaseActivity {
 
     String[] data1 = new  String[] {"Home 1","Home 2","Home 3","Home 4","Home 5","Home 6","Home 7","Home 8","Home 9","Home10",
             "Home11","Home12","Home13","Home14","Home15","Home16","Home17","Home18","Home19","Home20",
