@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class HomeActivity extends BaseActivity {
@@ -24,6 +25,9 @@ public class HomeActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        //LinearLayout layout_home = (LinearLayout) findViewById( R.id.layout_home);
+        //View view_child = getLayoutInflater().inflate( R.layout.activity_home, null);
+        //layout_home.addView( view_child);
 
         // Code Recycleview
 
